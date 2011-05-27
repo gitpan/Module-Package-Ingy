@@ -1,0 +1,30 @@
+---
+abstract: "Ingy's Module::Package Plugins"
+author:
+  - 'Ingy döt Net <ingy@ingy.net>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Module::Package::Ingy
+name: Module-Package-Ingy
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Module::Install::AckXXX: 0.11
+  Module::Install::ReadmeFromPod: 0.12
+  Module::Install::Stardoc: 0.13
+  Module::Install::VersionCheck: 0.11
+  Module::Package: 0.12
+  perl: 5.8.3
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
