@@ -40,6 +40,16 @@ It also conditionally uses these plugins if you need them:
 This module does not add any usage options of than the ones inherited from
 L<Module::Package::Plugin>.
 
+=head1 SEE ALSO
+
+=over
+
+=item *
+
+L<Module::Package>
+
+=back
+
 =head1 AUTHOR
 
 Ingy döt Net <ingy@ingy.net>
