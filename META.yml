@@ -19,12 +19,14 @@ no_index:
     - inc
     - t
 requires:
-  Module::Install::AckXXX: 0.11
+  IO::All: 0.41
+  Module::Install::AckXXX: 0.15
   Module::Install::ReadmeFromPod: 0.12
   Module::Install::Stardoc: 0.13
-  Module::Install::VersionCheck: 0.11
-  Module::Package: 0.12
+  Module::Install::VersionCheck: 0.13
+  Module::Package: 0.17
+  YAML::XS: 0.35
   perl: 5.8.3
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05
