@@ -25,6 +25,7 @@ requires:
   Module::Install::AutoLicense: 0.08
   Module::Install::GithubMeta: 0.10
   Module::Install::ReadmeFromPod: 0.12
+  Module::Install::RequiresList: 0.10
   Module::Install::Stardoc: 0.13
   Module::Install::VersionCheck: 0.14
   Module::Package: 0.22
@@ -34,4 +35,4 @@ resources:
   homepage: http://github.com/ingydotnet/module-package-ingy-pm/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/module-package-ingy-pm.git
-version: 0.11
+version: 0.12
