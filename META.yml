@@ -19,7 +19,7 @@ no_index:
     - inc
     - t
 requires:
-  Capture::Tiny: 0.10
+  Capture::Tiny: 0.11
   IO::All: 0.41
   Module::Install::AckXXX: 0.16
   Module::Install::AutoLicense: 0.08
@@ -28,11 +28,11 @@ requires:
   Module::Install::RequiresList: 0.10
   Module::Install::Stardoc: 0.13
   Module::Install::VersionCheck: 0.14
-  Module::Package: 0.22
+  Module::Package: 0.26
   YAML::XS: 0.35
   perl: 5.8.3
 resources:
   homepage: http://github.com/ingydotnet/module-package-ingy-pm/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/module-package-ingy-pm.git
-version: 0.12
+version: 0.13
