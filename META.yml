@@ -29,8 +29,9 @@ requires:
   Module::Install::RequiresList: 0.10
   Module::Install::Stardoc: 0.18
   Module::Install::TestCommon: 0.07
+  Module::Install::TestML: 0.20
   Module::Install::VersionCheck: 0.15
-  Module::Package: 0.27
+  Module::Package: 0.28
   Pegex: 0.13
   Test::Base: 0.60
   TestML: 0.21
@@ -40,4 +41,4 @@ resources:
   homepage: http://github.com/ingydotnet/module-package-ingy-pm/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/module-package-ingy-pm.git
-version: 0.14
+version: 0.15
