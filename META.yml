@@ -33,6 +33,10 @@ requires:
   Module::Install::VersionCheck: 0.15
   Module::Package: 0.28
   Pegex: 0.13
+  Pegex::Grammar: 0
+  Pegex::Mo: 0
+  Pegex::Parser: 0
+  Pegex::Receiver: 0
   Test::Base: 0.60
   TestML: 0.21
   YAML::XS: 0.35
@@ -41,4 +45,4 @@ resources:
   homepage: http://github.com/ingydotnet/module-package-ingy-pm/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/module-package-ingy-pm.git
-version: 0.15
+version: 0.16

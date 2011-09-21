@@ -15,7 +15,7 @@ use 5.008003;
 use strict;
 package Module::Package::Ingy;
 
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 
 use Module::Package 0.28 ();
 use Module::Install::AckXXX 0.16 ();
@@ -32,6 +32,12 @@ use Module::Install::VersionCheck 0.15 ();
 use Capture::Tiny 0.11 ();
 use IO::All 0.43;
 use Pegex 0.13 ();
+my $skip_pegex = "
+use Pegex::Mo 0;
+use Pegex::Grammar 0;
+use Pegex::Parser 0;
+use Pegex::Receiver 0;
+";
 use Test::Base 0.60 ();
 use TestML 0.21 ();
 use YAML::XS 0.35 ();
