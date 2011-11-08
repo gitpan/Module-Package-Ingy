@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+generated_by: 'Module::Install version 1.02'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,20 +20,19 @@ no_index:
     - t
 requires:
   Capture::Tiny: 0.11
-  IO::All: 0.43
-  Module::Install::AckXXX: 0.16
+  IO::All: 0.44
+  Module::Install::AckXXX: 0.18
   Module::Install::AutoLicense: 0.08
-  Module::Install::GithubMeta: 0.10
-  Module::Install::Gloom: 0.16
+  Module::Install::GithubMeta: 0.16
   Module::Install::ReadmeFromPod: 0.12
   Module::Install::RequiresList: 0.10
   Module::Install::Stardoc: 0.18
   Module::Install::TestBase: 0
   Module::Install::TestCommon: 0.07
-  Module::Install::TestML: 0.20
-  Module::Install::VersionCheck: 0.15
-  Module::Package: 0.29
-  Pegex: 0.13
+  Module::Install::TestML: 0.26
+  Module::Install::VersionCheck: 0.16
+  Module::Package: 0.30
+  Pegex: 0.19
   Pegex::Grammar: 0
   Pegex::Mo: 0
   Pegex::Parser: 0
@@ -44,11 +43,14 @@ requires:
   Test::Builder: 0
   Test::Builder::Module: 0
   Test::More: 0
-  TestML: 0.21
-  YAML::XS: 0.35
+  TestML: 0.26
+  YAML::XS: 0.37
   perl: 5.8.3
 resources:
-  homepage: http://github.com/ingydotnet/module-package-ingy-pm/tree
+  homepage: https://github.com/ingydotnet/module-package-ingy-pm/tree
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/ingydotnet/module-package-ingy-pm.git
-version: 0.17
+  repository:
+    type: git
+    url: git://github.com/ingydotnet/module-package-ingy-pm.git
+    web: https://github.com/ingydotnet/module-package-ingy-pm/tree
+version: 0.18
