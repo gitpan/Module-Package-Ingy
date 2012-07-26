@@ -54,4 +54,4 @@ resources:
     type: git
     url: git://github.com/ingydotnet/module-package-ingy-pm.git
     web: https://github.com/ingydotnet/module-package-ingy-pm/tree
-version: 0.19
+version: 0.20
